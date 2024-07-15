@@ -5,25 +5,26 @@ const Public = () => {
     <section className="public">
       <header>
         <h1>
-          Welcome to <span className="nowrap">Dan D. Repairs!</span>
+          Welcome to{" "}
+          <span className="nowrap">Akshay NextWave Technologies</span>
         </h1>
       </header>
       <main className="public__main">
         <p>
-          Located in Beautiful Downtown Foo City, Dan D. Repairs provides a
-          trained staff ready to meet your tech repair needs.
+          Based in the beautiful city of Pune, Akshay NextWave Technologies
+          offers next-generation software solutions to stay ahead of the curve.
         </p>
         <address className="public__addr">
-          Dan D. Repairs
+          Akshay NextWave Technologies
           <br />
-          555 Foo Drive
+          Phase 3, Hinjawadi
           <br />
-          Foo City, CA 12345
+          Pune, MH 411057
           <br />
           <a href="tel:+15555555555">(555) 555-5555</a>
         </address>
         <br />
-        <p>Owner: Dan Davidson</p>
+        <p>Owner: Akshay Dhame</p>
       </main>
       <footer>
         <Link to="/login">Employee Login</Link>
